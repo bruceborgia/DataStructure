@@ -4,3 +4,5 @@ project(DataStructure)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(DataStructure main.cpp)
+
+add_executable(SqList SqList.cpp)

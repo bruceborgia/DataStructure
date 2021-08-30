@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named SqList
+
+# Build rule for target.
+SqList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SqList
+.PHONY : SqList
+
+# fast build rule for target.
+SqList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/build
+.PHONY : SqList/fast
+
+#=============================================================================
 # Target rules for targets named DataStructure
 
 # Build rule for target.
@@ -128,6 +141,30 @@ DataStructure: cmake_check_build_system
 DataStructure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
+
+SqList.o: SqList.cpp.o
+.PHONY : SqList.o
+
+# target to build an object file
+SqList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/SqList.cpp.o
+.PHONY : SqList.cpp.o
+
+SqList.i: SqList.cpp.i
+.PHONY : SqList.i
+
+# target to preprocess a source file
+SqList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/SqList.cpp.i
+.PHONY : SqList.cpp.i
+
+SqList.s: SqList.cpp.s
+.PHONY : SqList.s
+
+# target to generate assembly for a file
+SqList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/SqList.cpp.s
+.PHONY : SqList.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -162,6 +199,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DataStructure"
+	@echo "... SqList"
+	@echo "... SqList.o"
+	@echo "... SqList.i"
+	@echo "... SqList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
