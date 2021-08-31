@@ -136,7 +136,7 @@ void createlist_head(LNode*&C, int a[], int n)//头插法
     }
 }
 
-void merge(LNode *A,LNode *B,LNode *&C)//合并两个递增链表
+void merge(LNode *A,LNode *B,LNode *&C)//合并两个递增链表，合并后哦依然递增
 {
     LNode *p=A->next;//p跟踪A的最小值节点
     LNode *q = B->next;//q跟踪B的最小值节点
@@ -167,6 +167,48 @@ void merge(LNode *A,LNode *B,LNode *&C)//合并两个递增链表
     if (q!=NULL)
     {
         r->next=q;
+    }
+}
+
+void merge1(LNode *A,LNode *B, LNode *&C)
+{
+    LNode * p = A->next;
+    LNode * q = B->next;
+    LNode * s;
+    C=A;
+    C->next=NULL;
+    free(B);
+    while (p!=NULL&&q!=NULL)
+    {
+        if (p->data<=q->data)
+        {
+            s=p;
+            p=p->next;
+            s->next=C->next;
+            C->next=s;
+        }
+        else
+        {
+            s=q;
+            q=q-> next;
+            s->next=C->next;
+            C->next=s;
+        }
+
+    }
+    while(p!=NULL)
+    {
+        s=p;
+        p=p->next;
+        s->next=C->next;
+        C->next=s;
+    }
+    while(q!=NULL)
+    {
+        s=q;
+        q=q->next;
+        s->next=C->next;
+        C->next=s;
     }
 }
 
