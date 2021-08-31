@@ -218,6 +218,7 @@ int main(){
     insertElem(l,0,5);
     insertElem(l,1,8);
     showElem(l);
+    cout<<"win test";
 
     return 0;
 }
