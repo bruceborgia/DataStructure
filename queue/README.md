@@ -8,4 +8,4 @@ QUERU
     
     队空：qu.rear == qu.front
     对满：(qu.rear+1)%maxSize ==qu.front
-    防止假溢出
+    可以防止假溢出
