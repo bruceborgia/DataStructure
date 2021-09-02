@@ -12,4 +12,5 @@ QUERU
 对满：(qu.rear+1)%maxSize ==qu.front
 
 可以防止假溢出
+
 ![img.png](img.png)
