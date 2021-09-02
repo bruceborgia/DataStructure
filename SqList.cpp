@@ -212,6 +212,13 @@ void merge1(LNode *A,LNode *B, LNode *&C)
     }
 }
 
+void showlinklist(LNode*a)
+{
+    while(a->next!=NULL){
+        cout<<a->data<<endl;
+        a=a->next;
+    }
+}
 int main(){
     Sqlist l;
     initList(l);
