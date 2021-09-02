@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/wyr/DL_learning/DataStructure/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/163/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/163/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -143,17 +143,17 @@ stack_shunxuzhan/fast:
 .PHONY : stack_shunxuzhan/fast
 
 #=============================================================================
-# Target rules for targets named DataStructure
+# Target rules for targets named main
 
 # Build rule for target.
-DataStructure: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DataStructure
-.PHONY : DataStructure
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-DataStructure/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/build
-.PHONY : DataStructure/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named Sqlist_shunxubiao
@@ -167,6 +167,19 @@ Sqlist_shunxubiao: cmake_check_build_system
 Sqlist_shunxubiao/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shunxubiao.dir/build.make CMakeFiles/Sqlist_shunxubiao.dir/build
 .PHONY : Sqlist_shunxubiao/fast
+
+#=============================================================================
+# Target rules for targets named queue_shunxudui
+
+# Build rule for target.
+queue_shunxudui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue_shunxudui
+.PHONY : queue_shunxudui
+
+# fast build rule for target.
+queue_shunxudui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_shunxudui.dir/build.make CMakeFiles/queue_shunxudui.dir/build
+.PHONY : queue_shunxudui/fast
 
 #=============================================================================
 # Target rules for targets named Sqlist_danlianbiao
@@ -199,7 +212,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -207,7 +220,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -215,8 +228,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+queue/queue_shunxudui.o: queue/queue_shunxudui.cpp.o
+.PHONY : queue/queue_shunxudui.o
+
+# target to build an object file
+queue/queue_shunxudui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_shunxudui.dir/build.make CMakeFiles/queue_shunxudui.dir/queue/queue_shunxudui.cpp.o
+.PHONY : queue/queue_shunxudui.cpp.o
+
+queue/queue_shunxudui.i: queue/queue_shunxudui.cpp.i
+.PHONY : queue/queue_shunxudui.i
+
+# target to preprocess a source file
+queue/queue_shunxudui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_shunxudui.dir/build.make CMakeFiles/queue_shunxudui.dir/queue/queue_shunxudui.cpp.i
+.PHONY : queue/queue_shunxudui.cpp.i
+
+queue/queue_shunxudui.s: queue/queue_shunxudui.cpp.s
+.PHONY : queue/queue_shunxudui.s
+
+# target to generate assembly for a file
+queue/queue_shunxudui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_shunxudui.dir/build.make CMakeFiles/queue_shunxudui.dir/queue/queue_shunxudui.cpp.s
+.PHONY : queue/queue_shunxudui.cpp.s
 
 sqlist/Sqlist_danlianbiao.o: sqlist/Sqlist_danlianbiao.cpp.o
 .PHONY : sqlist/Sqlist_danlianbiao.o
@@ -346,15 +383,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DataStructure"
 	@echo "... Sqlist_danlianbiao"
 	@echo "... Sqlist_shuanglianbiao"
 	@echo "... Sqlist_shunxubiao"
+	@echo "... main"
+	@echo "... queue_shunxudui"
 	@echo "... stack_lianzhan"
 	@echo "... stack_shunxuzhan"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue/queue_shunxudui.o"
+	@echo "... queue/queue_shunxudui.i"
+	@echo "... queue/queue_shunxudui.s"
 	@echo "... sqlist/Sqlist_danlianbiao.o"
 	@echo "... sqlist/Sqlist_danlianbiao.i"
 	@echo "... sqlist/Sqlist_danlianbiao.s"

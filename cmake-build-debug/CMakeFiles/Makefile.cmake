@@ -48,8 +48,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/stack_lianzhan.dir/DependInfo.cmake"
   "CMakeFiles/stack_shunxuzhan.dir/DependInfo.cmake"
-  "CMakeFiles/DataStructure.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/Sqlist_shunxubiao.dir/DependInfo.cmake"
+  "CMakeFiles/queue_shunxudui.dir/DependInfo.cmake"
   "CMakeFiles/Sqlist_danlianbiao.dir/DependInfo.cmake"
   "CMakeFiles/Sqlist_shuanglianbiao.dir/DependInfo.cmake"
   )
