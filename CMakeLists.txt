@@ -7,3 +7,4 @@ add_executable(DataStructure main.cpp)
 
 add_executable(SqList sqlist/SqList.cpp)
 add_executable(Sqlist_shunxubiao sqlist/Sqlist_shunxubiao.cpp)
+add_executable(Sqlist_danlianbiao sqlist/Sqlist_danlianbiao.cpp)

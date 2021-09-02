@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/wyr/DL_learning/DataStructure/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/DataStructure.dir/all
 all: CMakeFiles/SqList.dir/all
+all: CMakeFiles/Sqlist_danlianbiao.dir/all
 all: CMakeFiles/Sqlist_shunxubiao.dir/all
 .PHONY : all
 
@@ -75,6 +76,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/DataStructure.dir/clean
 clean: CMakeFiles/SqList.dir/clean
+clean: CMakeFiles/Sqlist_danlianbiao.dir/clean
 clean: CMakeFiles/Sqlist_shunxubiao.dir/clean
 .PHONY : clean
 
@@ -131,13 +133,39 @@ CMakeFiles/SqList.dir/clean:
 .PHONY : CMakeFiles/SqList.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Sqlist_danlianbiao.dir
+
+# All Build rule for target.
+CMakeFiles/Sqlist_danlianbiao.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_danlianbiao.dir/build.make CMakeFiles/Sqlist_danlianbiao.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_danlianbiao.dir/build.make CMakeFiles/Sqlist_danlianbiao.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Sqlist_danlianbiao"
+.PHONY : CMakeFiles/Sqlist_danlianbiao.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Sqlist_danlianbiao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Sqlist_danlianbiao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Sqlist_danlianbiao.dir/rule
+
+# Convenience name for target.
+Sqlist_danlianbiao: CMakeFiles/Sqlist_danlianbiao.dir/rule
+.PHONY : Sqlist_danlianbiao
+
+# clean rule for target.
+CMakeFiles/Sqlist_danlianbiao.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_danlianbiao.dir/build.make CMakeFiles/Sqlist_danlianbiao.dir/clean
+.PHONY : CMakeFiles/Sqlist_danlianbiao.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Sqlist_shunxubiao.dir
 
 # All Build rule for target.
 CMakeFiles/Sqlist_shunxubiao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shunxubiao.dir/build.make CMakeFiles/Sqlist_shunxubiao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shunxubiao.dir/build.make CMakeFiles/Sqlist_shunxubiao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Sqlist_shunxubiao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Sqlist_shunxubiao"
 .PHONY : CMakeFiles/Sqlist_shunxubiao.dir/all
 
 # Build rule for subdir invocation for target.
