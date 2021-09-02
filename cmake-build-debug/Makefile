@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stack_shunxuzhan
+
+# Build rule for target.
+stack_shunxuzhan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack_shunxuzhan
+.PHONY : stack_shunxuzhan
+
+# fast build rule for target.
+stack_shunxuzhan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_shunxuzhan.dir/build.make CMakeFiles/stack_shunxuzhan.dir/build
+.PHONY : stack_shunxuzhan/fast
+
+#=============================================================================
 # Target rules for targets named DataStructure
 
 # Build rule for target.
@@ -264,6 +277,30 @@ sqlist/Sqlist_shunxubiao.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shunxubiao.dir/build.make CMakeFiles/Sqlist_shunxubiao.dir/sqlist/Sqlist_shunxubiao.cpp.s
 .PHONY : sqlist/Sqlist_shunxubiao.cpp.s
 
+stack/stack_shunxuzhan.o: stack/stack_shunxuzhan.cpp.o
+.PHONY : stack/stack_shunxuzhan.o
+
+# target to build an object file
+stack/stack_shunxuzhan.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_shunxuzhan.dir/build.make CMakeFiles/stack_shunxuzhan.dir/stack/stack_shunxuzhan.cpp.o
+.PHONY : stack/stack_shunxuzhan.cpp.o
+
+stack/stack_shunxuzhan.i: stack/stack_shunxuzhan.cpp.i
+.PHONY : stack/stack_shunxuzhan.i
+
+# target to preprocess a source file
+stack/stack_shunxuzhan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_shunxuzhan.dir/build.make CMakeFiles/stack_shunxuzhan.dir/stack/stack_shunxuzhan.cpp.i
+.PHONY : stack/stack_shunxuzhan.cpp.i
+
+stack/stack_shunxuzhan.s: stack/stack_shunxuzhan.cpp.s
+.PHONY : stack/stack_shunxuzhan.s
+
+# target to generate assembly for a file
+stack/stack_shunxuzhan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_shunxuzhan.dir/build.make CMakeFiles/stack_shunxuzhan.dir/stack/stack_shunxuzhan.cpp.s
+.PHONY : stack/stack_shunxuzhan.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,6 +313,7 @@ help:
 	@echo "... Sqlist_danlianbiao"
 	@echo "... Sqlist_shuanglianbiao"
 	@echo "... Sqlist_shunxubiao"
+	@echo "... stack_shunxuzhan"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -288,6 +326,9 @@ help:
 	@echo "... sqlist/Sqlist_shunxubiao.o"
 	@echo "... sqlist/Sqlist_shunxubiao.i"
 	@echo "... sqlist/Sqlist_shunxubiao.s"
+	@echo "... stack/stack_shunxuzhan.o"
+	@echo "... stack/stack_shunxuzhan.i"
+	@echo "... stack/stack_shunxuzhan.s"
 .PHONY : help
 
 
