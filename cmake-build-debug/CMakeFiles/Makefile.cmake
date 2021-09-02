@@ -46,6 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/SqList.dir/DependInfo.cmake"
   "CMakeFiles/DataStructure.dir/DependInfo.cmake"
+  "CMakeFiles/SqList.dir/DependInfo.cmake"
+  "CMakeFiles/Sqlist_shunxubiao.dir/DependInfo.cmake"
   )

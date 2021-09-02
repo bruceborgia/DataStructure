@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wyr/DL_learning/DataStructure/SqList.cpp" "/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/SqList.dir/SqList.cpp.o"
+  "/home/wyr/DL_learning/DataStructure/sqlist/SqList.cpp" "/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/SqList.dir/sqlist/SqList.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

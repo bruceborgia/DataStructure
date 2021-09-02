@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/SqList.dir/SqList.cpp.o -o SqList 
+/usr/bin/c++ -g CMakeFiles/SqList.dir/sqlist/SqList.cpp.o -o SqList 

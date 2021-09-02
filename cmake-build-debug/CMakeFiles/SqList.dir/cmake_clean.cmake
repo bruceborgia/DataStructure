@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SqList.dir/SqList.cpp.o"
+  "CMakeFiles/SqList.dir/sqlist/SqList.cpp.o"
   "SqList"
   "SqList.pdb"
 )

@@ -66,27 +66,27 @@ include CMakeFiles/SqList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SqList.dir/flags.make
 
-CMakeFiles/SqList.dir/SqList.cpp.o: CMakeFiles/SqList.dir/flags.make
-CMakeFiles/SqList.dir/SqList.cpp.o: ../SqList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SqList.dir/SqList.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SqList.dir/SqList.cpp.o -c /home/wyr/DL_learning/DataStructure/SqList.cpp
+CMakeFiles/SqList.dir/sqlist/SqList.cpp.o: CMakeFiles/SqList.dir/flags.make
+CMakeFiles/SqList.dir/sqlist/SqList.cpp.o: ../sqlist/SqList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SqList.dir/sqlist/SqList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SqList.dir/sqlist/SqList.cpp.o -c /home/wyr/DL_learning/DataStructure/sqlist/SqList.cpp
 
-CMakeFiles/SqList.dir/SqList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SqList.dir/SqList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wyr/DL_learning/DataStructure/SqList.cpp > CMakeFiles/SqList.dir/SqList.cpp.i
+CMakeFiles/SqList.dir/sqlist/SqList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SqList.dir/sqlist/SqList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wyr/DL_learning/DataStructure/sqlist/SqList.cpp > CMakeFiles/SqList.dir/sqlist/SqList.cpp.i
 
-CMakeFiles/SqList.dir/SqList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SqList.dir/SqList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wyr/DL_learning/DataStructure/SqList.cpp -o CMakeFiles/SqList.dir/SqList.cpp.s
+CMakeFiles/SqList.dir/sqlist/SqList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SqList.dir/sqlist/SqList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wyr/DL_learning/DataStructure/sqlist/SqList.cpp -o CMakeFiles/SqList.dir/sqlist/SqList.cpp.s
 
 # Object files for target SqList
 SqList_OBJECTS = \
-"CMakeFiles/SqList.dir/SqList.cpp.o"
+"CMakeFiles/SqList.dir/sqlist/SqList.cpp.o"
 
 # External object files for target SqList
 SqList_EXTERNAL_OBJECTS =
 
-SqList: CMakeFiles/SqList.dir/SqList.cpp.o
+SqList: CMakeFiles/SqList.dir/sqlist/SqList.cpp.o
 SqList: CMakeFiles/SqList.dir/build.make
 SqList: CMakeFiles/SqList.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SqList"

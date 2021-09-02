@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wyr/DL_learning/DataStructure/SqList.cpp
+/home/wyr/DL_learning/DataStructure/sqlist/SqList.cpp
 iostream
-/home/wyr/DL_learning/DataStructure/iostream
+/home/wyr/DL_learning/DataStructure/sqlist/iostream
 
