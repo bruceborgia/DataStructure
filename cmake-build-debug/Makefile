@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Sqlist_shuanglianbiao
+
+# Build rule for target.
+Sqlist_shuanglianbiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sqlist_shuanglianbiao
+.PHONY : Sqlist_shuanglianbiao
+
+# fast build rule for target.
+Sqlist_shuanglianbiao/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shuanglianbiao.dir/build.make CMakeFiles/Sqlist_shuanglianbiao.dir/build
+.PHONY : Sqlist_shuanglianbiao/fast
+
+#=============================================================================
 # Target rules for targets named DataStructure
 
 # Build rule for target.
@@ -240,6 +253,30 @@ sqlist/Sqlist_danlianbiao.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_danlianbiao.dir/build.make CMakeFiles/Sqlist_danlianbiao.dir/sqlist/Sqlist_danlianbiao.cpp.s
 .PHONY : sqlist/Sqlist_danlianbiao.cpp.s
 
+sqlist/Sqlist_shuanglianbiao.o: sqlist/Sqlist_shuanglianbiao.cpp.o
+.PHONY : sqlist/Sqlist_shuanglianbiao.o
+
+# target to build an object file
+sqlist/Sqlist_shuanglianbiao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shuanglianbiao.dir/build.make CMakeFiles/Sqlist_shuanglianbiao.dir/sqlist/Sqlist_shuanglianbiao.cpp.o
+.PHONY : sqlist/Sqlist_shuanglianbiao.cpp.o
+
+sqlist/Sqlist_shuanglianbiao.i: sqlist/Sqlist_shuanglianbiao.cpp.i
+.PHONY : sqlist/Sqlist_shuanglianbiao.i
+
+# target to preprocess a source file
+sqlist/Sqlist_shuanglianbiao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shuanglianbiao.dir/build.make CMakeFiles/Sqlist_shuanglianbiao.dir/sqlist/Sqlist_shuanglianbiao.cpp.i
+.PHONY : sqlist/Sqlist_shuanglianbiao.cpp.i
+
+sqlist/Sqlist_shuanglianbiao.s: sqlist/Sqlist_shuanglianbiao.cpp.s
+.PHONY : sqlist/Sqlist_shuanglianbiao.s
+
+# target to generate assembly for a file
+sqlist/Sqlist_shuanglianbiao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shuanglianbiao.dir/build.make CMakeFiles/Sqlist_shuanglianbiao.dir/sqlist/Sqlist_shuanglianbiao.cpp.s
+.PHONY : sqlist/Sqlist_shuanglianbiao.cpp.s
+
 sqlist/Sqlist_shunxubiao.o: sqlist/Sqlist_shunxubiao.cpp.o
 .PHONY : sqlist/Sqlist_shunxubiao.o
 
@@ -275,6 +312,7 @@ help:
 	@echo "... DataStructure"
 	@echo "... SqList"
 	@echo "... Sqlist_danlianbiao"
+	@echo "... Sqlist_shuanglianbiao"
 	@echo "... Sqlist_shunxubiao"
 	@echo "... main.o"
 	@echo "... main.i"
@@ -285,6 +323,9 @@ help:
 	@echo "... sqlist/Sqlist_danlianbiao.o"
 	@echo "... sqlist/Sqlist_danlianbiao.i"
 	@echo "... sqlist/Sqlist_danlianbiao.s"
+	@echo "... sqlist/Sqlist_shuanglianbiao.o"
+	@echo "... sqlist/Sqlist_shuanglianbiao.i"
+	@echo "... sqlist/Sqlist_shuanglianbiao.s"
 	@echo "... sqlist/Sqlist_shunxubiao.o"
 	@echo "... sqlist/Sqlist_shunxubiao.i"
 	@echo "... sqlist/Sqlist_shunxubiao.s"
