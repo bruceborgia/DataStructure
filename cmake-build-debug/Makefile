@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Sqlist_shuanglianbiao
-
-# Build rule for target.
-Sqlist_shuanglianbiao: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sqlist_shuanglianbiao
-.PHONY : Sqlist_shuanglianbiao
-
-# fast build rule for target.
-Sqlist_shuanglianbiao/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shuanglianbiao.dir/build.make CMakeFiles/Sqlist_shuanglianbiao.dir/build
-.PHONY : Sqlist_shuanglianbiao/fast
-
-#=============================================================================
 # Target rules for targets named DataStructure
 
 # Build rule for target.
@@ -143,17 +130,17 @@ DataStructure/fast:
 .PHONY : DataStructure/fast
 
 #=============================================================================
-# Target rules for targets named SqList
+# Target rules for targets named Sqlist_shunxubiao
 
 # Build rule for target.
-SqList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SqList
-.PHONY : SqList
+Sqlist_shunxubiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sqlist_shunxubiao
+.PHONY : Sqlist_shunxubiao
 
 # fast build rule for target.
-SqList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/build
-.PHONY : SqList/fast
+Sqlist_shunxubiao/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shunxubiao.dir/build.make CMakeFiles/Sqlist_shunxubiao.dir/build
+.PHONY : Sqlist_shunxubiao/fast
 
 #=============================================================================
 # Target rules for targets named Sqlist_danlianbiao
@@ -169,17 +156,17 @@ Sqlist_danlianbiao/fast:
 .PHONY : Sqlist_danlianbiao/fast
 
 #=============================================================================
-# Target rules for targets named Sqlist_shunxubiao
+# Target rules for targets named Sqlist_shuanglianbiao
 
 # Build rule for target.
-Sqlist_shunxubiao: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sqlist_shunxubiao
-.PHONY : Sqlist_shunxubiao
+Sqlist_shuanglianbiao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sqlist_shuanglianbiao
+.PHONY : Sqlist_shuanglianbiao
 
 # fast build rule for target.
-Sqlist_shunxubiao/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shunxubiao.dir/build.make CMakeFiles/Sqlist_shunxubiao.dir/build
-.PHONY : Sqlist_shunxubiao/fast
+Sqlist_shuanglianbiao/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_shuanglianbiao.dir/build.make CMakeFiles/Sqlist_shuanglianbiao.dir/build
+.PHONY : Sqlist_shuanglianbiao/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -204,30 +191,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-sqlist/SqList.o: sqlist/SqList.cpp.o
-.PHONY : sqlist/SqList.o
-
-# target to build an object file
-sqlist/SqList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/sqlist/SqList.cpp.o
-.PHONY : sqlist/SqList.cpp.o
-
-sqlist/SqList.i: sqlist/SqList.cpp.i
-.PHONY : sqlist/SqList.i
-
-# target to preprocess a source file
-sqlist/SqList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/sqlist/SqList.cpp.i
-.PHONY : sqlist/SqList.cpp.i
-
-sqlist/SqList.s: sqlist/SqList.cpp.s
-.PHONY : sqlist/SqList.s
-
-# target to generate assembly for a file
-sqlist/SqList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqList.dir/build.make CMakeFiles/SqList.dir/sqlist/SqList.cpp.s
-.PHONY : sqlist/SqList.cpp.s
 
 sqlist/Sqlist_danlianbiao.o: sqlist/Sqlist_danlianbiao.cpp.o
 .PHONY : sqlist/Sqlist_danlianbiao.o
@@ -310,16 +273,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DataStructure"
-	@echo "... SqList"
 	@echo "... Sqlist_danlianbiao"
 	@echo "... Sqlist_shuanglianbiao"
 	@echo "... Sqlist_shunxubiao"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sqlist/SqList.o"
-	@echo "... sqlist/SqList.i"
-	@echo "... sqlist/SqList.s"
 	@echo "... sqlist/Sqlist_danlianbiao.o"
 	@echo "... sqlist/Sqlist_danlianbiao.i"
 	@echo "... sqlist/Sqlist_danlianbiao.s"
