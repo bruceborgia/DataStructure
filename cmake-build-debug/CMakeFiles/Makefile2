@@ -69,6 +69,7 @@ all: CMakeFiles/main.dir/all
 all: CMakeFiles/Sqlist_shunxubiao.dir/all
 all: CMakeFiles/queue_shunxudui.dir/all
 all: CMakeFiles/Sqlist_danlianbiao.dir/all
+all: CMakeFiles/queue_liandui.dir/all
 all: CMakeFiles/Sqlist_shuanglianbiao.dir/all
 .PHONY : all
 
@@ -83,6 +84,7 @@ clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/Sqlist_shunxubiao.dir/clean
 clean: CMakeFiles/queue_shunxudui.dir/clean
 clean: CMakeFiles/Sqlist_danlianbiao.dir/clean
+clean: CMakeFiles/queue_liandui.dir/clean
 clean: CMakeFiles/Sqlist_shuanglianbiao.dir/clean
 .PHONY : clean
 
@@ -93,7 +95,7 @@ clean: CMakeFiles/Sqlist_shuanglianbiao.dir/clean
 CMakeFiles/stack_lianzhan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_lianzhan.dir/build.make CMakeFiles/stack_lianzhan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_lianzhan.dir/build.make CMakeFiles/stack_lianzhan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target stack_lianzhan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target stack_lianzhan"
 .PHONY : CMakeFiles/stack_lianzhan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -119,7 +121,7 @@ CMakeFiles/stack_lianzhan.dir/clean:
 CMakeFiles/stack_shunxuzhan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_shunxuzhan.dir/build.make CMakeFiles/stack_shunxuzhan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack_shunxuzhan.dir/build.make CMakeFiles/stack_shunxuzhan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target stack_shunxuzhan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target stack_shunxuzhan"
 .PHONY : CMakeFiles/stack_shunxuzhan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -197,7 +199,7 @@ CMakeFiles/Sqlist_shunxubiao.dir/clean:
 CMakeFiles/queue_shunxudui.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_shunxudui.dir/build.make CMakeFiles/queue_shunxudui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_shunxudui.dir/build.make CMakeFiles/queue_shunxudui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target queue_shunxudui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target queue_shunxudui"
 .PHONY : CMakeFiles/queue_shunxudui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,6 +243,32 @@ Sqlist_danlianbiao: CMakeFiles/Sqlist_danlianbiao.dir/rule
 CMakeFiles/Sqlist_danlianbiao.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sqlist_danlianbiao.dir/build.make CMakeFiles/Sqlist_danlianbiao.dir/clean
 .PHONY : CMakeFiles/Sqlist_danlianbiao.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queue_liandui.dir
+
+# All Build rule for target.
+CMakeFiles/queue_liandui.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target queue_liandui"
+.PHONY : CMakeFiles/queue_liandui.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue_liandui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/queue_liandui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/queue_liandui.dir/rule
+
+# Convenience name for target.
+queue_liandui: CMakeFiles/queue_liandui.dir/rule
+.PHONY : queue_liandui
+
+# clean rule for target.
+CMakeFiles/queue_liandui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/clean
+.PHONY : CMakeFiles/queue_liandui.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Sqlist_shuanglianbiao.dir

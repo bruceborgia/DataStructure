@@ -6,4 +6,5 @@
 /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/Sqlist_shunxubiao.dir
 /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/queue_shunxudui.dir
 /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/Sqlist_danlianbiao.dir
+/home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/queue_liandui.dir
 /home/wyr/DL_learning/DataStructure/cmake-build-debug/CMakeFiles/Sqlist_shuanglianbiao.dir

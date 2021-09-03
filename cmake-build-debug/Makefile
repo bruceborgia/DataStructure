@@ -195,6 +195,19 @@ Sqlist_danlianbiao/fast:
 .PHONY : Sqlist_danlianbiao/fast
 
 #=============================================================================
+# Target rules for targets named queue_liandui
+
+# Build rule for target.
+queue_liandui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue_liandui
+.PHONY : queue_liandui
+
+# fast build rule for target.
+queue_liandui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/build
+.PHONY : queue_liandui/fast
+
+#=============================================================================
 # Target rules for targets named Sqlist_shuanglianbiao
 
 # Build rule for target.
@@ -230,6 +243,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+queue/queue_liandui.o: queue/queue_liandui.cpp.o
+.PHONY : queue/queue_liandui.o
+
+# target to build an object file
+queue/queue_liandui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/queue/queue_liandui.cpp.o
+.PHONY : queue/queue_liandui.cpp.o
+
+queue/queue_liandui.i: queue/queue_liandui.cpp.i
+.PHONY : queue/queue_liandui.i
+
+# target to preprocess a source file
+queue/queue_liandui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/queue/queue_liandui.cpp.i
+.PHONY : queue/queue_liandui.cpp.i
+
+queue/queue_liandui.s: queue/queue_liandui.cpp.s
+.PHONY : queue/queue_liandui.s
+
+# target to generate assembly for a file
+queue/queue_liandui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_liandui.dir/build.make CMakeFiles/queue_liandui.dir/queue/queue_liandui.cpp.s
+.PHONY : queue/queue_liandui.cpp.s
 
 queue/queue_shunxudui.o: queue/queue_shunxudui.cpp.o
 .PHONY : queue/queue_shunxudui.o
@@ -387,12 +424,16 @@ help:
 	@echo "... Sqlist_shuanglianbiao"
 	@echo "... Sqlist_shunxubiao"
 	@echo "... main"
+	@echo "... queue_liandui"
 	@echo "... queue_shunxudui"
 	@echo "... stack_lianzhan"
 	@echo "... stack_shunxuzhan"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue/queue_liandui.o"
+	@echo "... queue/queue_liandui.i"
+	@echo "... queue/queue_liandui.s"
 	@echo "... queue/queue_shunxudui.o"
 	@echo "... queue/queue_shunxudui.i"
 	@echo "... queue/queue_shunxudui.s"
