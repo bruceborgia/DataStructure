@@ -9,8 +9,14 @@ QUEUE
     
 队空：qu.rear == qu.front
 
-对满：(qu.rear+1)%maxSize ==qu.front
+队满：(qu.rear+1)%maxSize ==qu.front
 
 可以防止假溢出
 
 ![img.png](img.png)
+![img_1.png](img_1.png)
+
+rear指向有数据的节点，front指向有数据的前一个节点。
+
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
