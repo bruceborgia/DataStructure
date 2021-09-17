@@ -84,6 +84,5 @@ int main()
     cout<<"x:"<<x<<endl;
     show(lqu);
 
-
     return 0;
 }
