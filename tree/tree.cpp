@@ -8,7 +8,7 @@ typedef struct BTNode
     struct BTNode*rchild;
 }BTNode;
 
-void Visit(BTNode *p)
+void Visit(BTNode *p)//输出节点的数据
 {
     if (p!=NULL)
     {
