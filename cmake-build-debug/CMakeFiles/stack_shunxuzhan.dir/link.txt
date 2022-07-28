@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/stack_shunxuzhan.dir/stack/stack_shunxuzhan.cpp.o -o stack_shunxuzhan 

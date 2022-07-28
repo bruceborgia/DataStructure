@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/stack_lianzhan.dir/stack/stack_lianzhan.cpp.o -o stack_lianzhan 

@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Sqlist_danlianbiao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sqlist_danlianbiao-Debug-ab601fca7fdaa75556a4.json",
+					"name" : "Sqlist_danlianbiao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sqlist_shuanglianbiao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sqlist_shuanglianbiao-Debug-639caa978f0b83dda5d0.json",
+					"name" : "Sqlist_shuanglianbiao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sqlist_shunxubiao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sqlist_shunxubiao-Debug-77d7d3d8c85bf5c6b15f.json",
+					"name" : "Sqlist_shunxubiao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-507a6280165dfd870544.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "queue_liandui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-queue_liandui-Debug-37590d21b505d3f3b6d3.json",
+					"name" : "queue_liandui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "queue_shunxudui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-queue_shunxudui-Debug-59a4fcf2ec7bd32d7f3e.json",
+					"name" : "queue_shunxudui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stack_lianzhan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stack_lianzhan-Debug-e780caebdb8e6f131217.json",
+					"name" : "stack_lianzhan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stack_shunxuzhan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stack_shunxuzhan-Debug-eef87430936205dc1950.json",
+					"name" : "stack_shunxuzhan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree-Debug-7fc32ce3928e9c9d8a9e.json",
+					"name" : "tree",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yfzx/learning/DataStructure/cmake-build-debug",
+		"source" : "/home/yfzx/learning/DataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

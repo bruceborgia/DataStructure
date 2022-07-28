@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/queue_liandui.dir/queue/queue_liandui.cpp.o -o queue_liandui 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Sqlist_shuanglianbiao.dir/sqlist/Sqlist_shuanglianbiao.cpp.o -o Sqlist_shuanglianbiao 

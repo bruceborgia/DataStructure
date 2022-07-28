@@ -1,4 +1,4 @@
-# Install script for directory: /home/wyr/DL_learning/DataStructure
+# Install script for directory: /home/yfzx/learning/DataStructure
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wyr/DL_learning/DataStructure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yfzx/learning/DataStructure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
